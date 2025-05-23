@@ -1,5 +1,8 @@
 from flask import Flask
 from app.extensions import db,migrate
+from flask_sqlalchemy import SQLAlchemy
+from app.extensions import db, migrate
+from app.controllers.program_controller import program
 
 
 #application factory function
